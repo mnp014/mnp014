@@ -27,5 +27,5 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-[![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCPALNxRUU26KYnlivZ6KIFw?style=social)](https://youtube.com/)
+[![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCPALNxRUU26KYnlivZ6KIFw?style=social)](https://www.youtube.com/channel/UCPALNxRUU26KYnlivZ6KIFw?=sub_confirmation=1)
 
