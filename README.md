@@ -26,7 +26,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
- [![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCPALNxRUU26KYnlivZ6KIFw?style=social)](https://www.youtube.com/channel/UCPALNxRUU26KYnlivZ6KIFw?=sub_confirmation=1)                ![Profile Views](https://komarev.com/ghpvc/?username=mnp014&color=blue) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/pradeep-mn/)
+ [![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCPALNxRUU26KYnlivZ6KIFw?style=social)](https://www.youtube.com/channel/UCPALNxRUU26KYnlivZ6KIFw?=sub_confirmation=1)                ![Profile Views](https://komarev.com/ghpvc/?username=mnp014&color=blue) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/pradeep-mn/)
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mnp014&show_icons=true&theme=dark)         ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mnp014&layout=compact&theme=dark)
 
