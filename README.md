@@ -33,5 +33,5 @@ Here are some ideas to get you started:
 
 
 ### 🐍 **GitHub Contribution Snake**
-![Snake animation](https://mnp014.github.io/mnp014/docs/github-snake.svg)
+![Snake animation](https://github.com/mnp014/mnp014/blob/master/docs/github-snake.svg)
 
