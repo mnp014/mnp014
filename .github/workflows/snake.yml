@@ -16,12 +16,12 @@ jobs:
         uses: Platane/snk/svg-only@main
         with:
           github_user_name: mnp014
-          outputs: dist/github-snake.svg
+          outputs: docs/github-snake.svg
 
       - name: Commit and push if changed
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git add dist/github-snake.svg
+          git add docs/github-snake.svg
           git diff --cached --quiet || git commit -m "Update GitHub Snake Animation"
           git push
