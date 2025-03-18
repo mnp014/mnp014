@@ -16,12 +16,17 @@ jobs:
         uses: Platane/snk@master
         with:
           github_user_name: mnp014
-          outputs: dist/github-snake.svg
+          outputs: /tmp/snake.svg
+
+      - name: Move file to repository
+        run: |
+          mkdir -p dist
+          mv /tmp/snake.svg dist/github-snake.svg
 
       - name: Commit and push to repository
         run: |
-          git config --global user.name 'github-actions'
-          git config --global user.email 'github-actions@github.com'
+          git config --local user.name "github-actions"
+          git config --local user.email "github-actions@github.com"
           git add dist/github-snake.svg
-          git commit -m "Generate GitHub Snake Animation"
+          git diff --cached --quiet || git commit -m "Update GitHub Snake Animation"
           git push
