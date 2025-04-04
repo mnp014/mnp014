@@ -173,7 +173,7 @@
         \kern 5.0 pt%
         \AND%
         \kern 5.0 pt%
-        \mbox{\hrefWithoutArrow{tel:+91-866-006-34-79}{+91 8660063479}}%
+        \href{tel:+918660063479}{\mbox{+91 86600 63479}}%
         \kern 5.0 pt%
         \AND%
         \kern 5.0 pt%
@@ -189,6 +189,9 @@
 
 
 
+
+
+        
     \section{Education}
 
         \begin{twocolentry}{Aug 2016 – Jun 2018}
@@ -220,12 +223,12 @@
     \section{Skills}
         
         \begin{onecolentry}
-            \textbf{Technical Skills:} Java, Spring Boot, MongoDB, Groovy, Spock Framework, Dart,  Go, Flutter, Python, R, MySQL, Docker, Git, RabbitMQ, Kafka, Nginx, Jenkins, Maven, Gradle, Shell, RESTful API design, WebSockets. \end{onecolentry}
+            \textbf{Technical Skills:} Java, Spring Boot, MongoDB, Groovy, Spock Framework, Dart,  Go, Flutter, R, MySQL, Docker, RabbitMQ, Kafka, Nginx, Jenkins, Maven, Gradle, Shell, RESTful API, WebSockets, Microservices, System design, Design Patterns, Git. \end{onecolentry}
 
         \vspace{0.2 cm}
 
         \begin{onecolentry}
-            \textbf{Tools \& IDEs:} Intellij, GoLand, Compass, Jira, MRemoteNg, Postman, WinScp, VS Code, OPSWAT, Yara, NetWitness.
+            \textbf{Tools \& IDEs:} Intellij, GoLand, Compass, Jira, MRemoteNg, Postman, WinScp, VS Code, OPSWAT, Yara, SEIM, XDR, NetWitness.
         \end{onecolentry}
    
 
@@ -239,15 +242,23 @@
         \vspace{0.10 cm}
         \begin{onecolentry}
             \begin{highlights}
-                \item Designed and implemented fault-tolerant management of multiple NetWitness endpoint instances with automatic failover, followed by developing robust automatic failover and fallback mechanisms for NetWitness suite head nodes, ensuring continuous availability, rapid recovery, and high resilience of the overall cybersecurity infrastructure.
-                \item Developed agent scans for air-gapped systems for customers operating in highly secure, isolated, or sensitive environments.
-                \item Developed capabilities for blocking 100K+ files on remote machines and also perform network isolation.
-                \item Integrated third-party scan results such as YARA and OPSWAT and integrated the results with the netWitness risk scoring mechanism.
-               \item Developed groups and policy mechanisms based on CIDR conditions for NetWitness.
-              \item Designed a method for resetting the risk score of 50K+ hosts in an endpoint server without affecting the file risk score.
-              \item Implemented secure file upload functionality via NetWitness relay servers deployed in DMZs, significantly reducing the cybersecurity attack surface.
-              \item Engineered a multiple file download feature across multiple endpoint servers, enhancing it to automatically download and quarantine malicious files, and implemented automatic management of downloaded files based on retention policies.
-            \end{highlights}
+\item \textit{Designed and implemented} fault-tolerant mechanism using \textbf{Java and Spring Boot}, Ensured \textit{high availability} and \textit{resiliency}; achieved \textbf{99.99\%} uptime through automatic failover and fallback mechanisms.
+
+\item \textit{Developed} scan solutions for air-gapped systems; Enabled secure cybersecurity operations in isolated networks using \textbf{Java}, met compliance for sensitive environments.
+
+\item \textit{Developed scalable} file quarantine and isolation systems in \textbf{Java} to manage and block \textbf{100K+} malicious files across distributed remote machines, incorporating advanced network isolation techniques.
+
+\item Integrated third-party security engines like YARA and OPSWAT via \textbf{Spring Boot Microservices}, directly enhancing risk-scoring intelligence and actionable insights within the NetWitness suite.
+
+\item \textit{Built} CIDR-based dynamic policy assignment engine in \textbf{Java} for endpoint access controls, improving targeting granularity and security posture across \textbf{50K+} assets.
+
+\item \textit{Optimized} risk scoring system for \textbf{50K+} hosts, developing a \textbf{Java}-based method to reset host risk without altering file scores — reducing manual intervention and increasing automation accuracy.
+
+\item Implemented secure file transfers through DMZ-based relay servers, \textbf{architected Spring Boot Microservices} that reduced exposure to attack vectors by \textbf{40\%}.
+
+\item \textit{Delivered} a parallelized multifile download system, allowing proactive quarantine and retention-based file lifecycle management using \textbf{Java and Microservices}, reduced the response times of investigations by \textbf{ 30\%}.
+
+    \end{highlights}
         \end{onecolentry}
 
         \vspace{0.2 cm}
@@ -258,10 +269,15 @@
         \vspace{0.10 cm}
         \begin{onecolentry}
           \begin{highlights}
-             \item Worked simultaneously across multiple software development teams, significantly contributing to 3 major backend components of the RSA NetWitness Endpoint suite, while proactively taking on and excelling in the additional responsibility of interim Scrum Master.
-                \item Designed and developed the PSR tool to stress-test and benchmark the endpoint server, effectively identifying performance limits and ensuring scalability.
-             \item Developed support for an MFT viewer, enabling forensic analysis and efficient investigation of file system activities within endpoints.
-         \end{highlights}
+\item \textit{Contributed} to \textbf{3} critical backend components using \textbf{Java, Spring Boot, Docker, and MongoDB}; also served as interim Scrum Master to improve \textbf{cross-functional collaboration} and team delivery velocity.
+
+\item \textit{Designed and developed} a Performance Stress \& Reliability (PSR) tool in \textbf{Java and Spring Boot} to benchmark and stress-test endpoint server \textbf{scalability}; identified bottlenecks and improved system throughput by \textbf{25\%} through targeted optimizations.
+
+\item Migrated over \textbf{30\%} of legacy JUnit test cases to the \textbf{Spock framework (Groovy)} to enable \textbf{BDD}-style development, resulting in a \textbf{70\%} reduction in test execution time and significantly improving test readability and maintainability.
+
+\item Migrated over \textbf{30\%} of legacy JUnit tests to Spock (Groovy), enabling BDD-style development, reducing test time by \textbf{70\%}, and improving readability and maintainability.
+
+ \end{highlights}
         \end{onecolentry}
 
         \vspace{0.2 cm}
@@ -272,7 +288,8 @@
         \vspace{0.10 cm}
         \begin{onecolentry}
           \begin{highlights}
-              \item Worked as part of the software architecture team and contributed to POCs such as Mongo sharding, Analyzing, and Scoring indicators of compromise (IOCs) based on the potential risk prediction mechanism.
+                \item Contributed to the software architecture team by developing POCs for containerization with \textbf{Docker} and \textbf{MongoDB} for sharding for Netwitness Suite
+                \item Developed POCs for creating risk prediction mechanism by analyzing IOCs, enhancing system design efficiency
             \end{highlights}
         \end{onecolentry}
 
